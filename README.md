@@ -25,4 +25,4 @@
 <li>Run Project (make sure xaamp is running)</li>
 <pre><code>php artisan serve</code></pre>
 
-<h3> To fo to Official Laravel Documentation : <a href="https://laravel.com/docs/11.x/readme">Click Here</a></h3>
+<h3>Official Laravel Documentation: <a href="https://laravel.com/docs/11.x/readme" target="_blank">Click Here</a></h3>
