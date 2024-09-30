@@ -1,0 +1,169 @@
+/* Reset and base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Welcome page specific styles */
+.welcome-container {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 50px;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(135deg, #6DD5FA, #2980B9);
+    color: #fff;
+}
+
+.welcome-container h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.welcome-container p {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+}
+
+.start-button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #2980B9;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+.start-button:hover {
+    background-color: #1B6A9D;
+}
+
+/* Task list page specific styles */
+.task-container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    color: #333;
+}
+
+.task-container h1 {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #2980B9;
+}
+
+.task-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.task-form input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.btn {
+    padding: 10px;
+    background-color: #2980B9;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #1B6A9D;
+}
+
+.task-list {
+    list-style-type: none;
+}
+
+.task-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f9f9f9;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.task-item span {
+    font-size: 1rem;
+}
+
+.complete-btn {
+    background-color: #2ecc71;
+}
+
+.complete-btn:hover {
+    background-color: #27ae60;
+}
+
+.completed {
+    color: green;
+    font-weight: bold;
+}
+
+/* Home container will center the content vertically and horizontally */
+.home-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw; /* Full width of the viewport */
+    height: 100vh; /* Full height of the viewport */
+    background: linear-gradient(135deg, #6DD5FA, #2980B9); /* Background gradient */
+}
+
+/* Home div for styling the content box */
+.home-div {
+    background-color: rgba(255, 255, 255, 0.2); /* Transparent white background */
+    padding: 40px;
+    border-radius: 15px; /* Rounded corners */
+    text-align: center; /* Center the text */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow */
+}
+
+/* Optional: Add style for h1 inside home-div */
+.home-div h1 {
+    font-size: 3rem;
+    color: #fff;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* Optional: Add style for paragraph */
+.home-div p {
+    font-size: 1.2rem;
+    color: #fff;
+    margin-bottom: 30px;
+}
