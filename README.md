@@ -4,6 +4,7 @@
 <pre><code>https://github.com/Ishansubedi30/To-Do-laravel.git</code></pre></li>
 
 <h2>After cloaning, please go in project directory and run following commands</h2>
+<li>Rename ".env.example" to ".env" </li>
 <pre><code>composer install</code></pre>
 <pre><code>php artisan migrate</code></pre>
 
